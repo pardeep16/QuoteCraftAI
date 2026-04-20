@@ -1,0 +1,16 @@
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/QuotecraftApisApplication.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/config/CorsProperties.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/config/JwtProperties.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/config/SecurityConfig.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/controller/AuthController.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/dto/auth/AuthResponse.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/dto/auth/GoogleAuthRequest.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/entity/Favorite.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/entity/Quote.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/entity/User.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/repository/FavoriteRepository.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/repository/QuoteRepository.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/repository/UserRepository.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/security/JwtAuthenticationFilter.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/security/JwtService.java
+/Users/pardeepkr/Desktop/QuoteCraft/backend/src/main/java/com/quotecraft/service/AuthService.java

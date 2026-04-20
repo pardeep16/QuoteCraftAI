@@ -1,0 +1,16 @@
+com/quotecraft/config/CorsProperties.class
+com/quotecraft/config/SecurityConfig.class
+com/quotecraft/entity/User.class
+com/quotecraft/controller/AuthController.class
+com/quotecraft/dto/auth/GoogleAuthRequest.class
+com/quotecraft/repository/QuoteRepository.class
+com/quotecraft/repository/FavoriteRepository.class
+com/quotecraft/entity/Quote.class
+com/quotecraft/entity/Favorite.class
+com/quotecraft/service/AuthService.class
+com/quotecraft/repository/UserRepository.class
+com/quotecraft/security/JwtService.class
+com/quotecraft/QuotecraftApisApplication.class
+com/quotecraft/dto/auth/AuthResponse.class
+com/quotecraft/config/JwtProperties.class
+com/quotecraft/security/JwtAuthenticationFilter.class
