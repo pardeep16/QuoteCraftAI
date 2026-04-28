@@ -6,3 +6,14 @@ coverage/
 *.log
 .idea/
 .vscode/
+target/
+*.iml
+/backend/target/
+/backend/.idea/
+/backend/.vscode/
+/backend/*.iml
+/frontend/quotecraft-ui/node_modules/
+/frontend/quotecraft-ui/dist/
+/frontend/quotecraft-ui/.idea/
+/frontend/quotecraft-ui/.vscode/
+/frontend/quotecraft-ui/*.iml

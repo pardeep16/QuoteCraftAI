@@ -1,6 +1,8 @@
 package com.quotecraft;
 
+import com.quotecraft.config.AIProperties;
 import com.quotecraft.config.CorsProperties;
+import com.quotecraft.config.ImageAIProperties;
 import com.quotecraft.config.JwtProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +11,9 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 @SpringBootApplication
 @EnableConfigurationProperties({
 		JwtProperties.class,
-		CorsProperties.class
+		CorsProperties.class,
+		AIProperties.class,
+		ImageAIProperties.class
 })
 public class QuotecraftApisApplication {
 

@@ -12,6 +12,18 @@ app:
   jwt:
     secret: ${JWT_SECRET:change-me-to-a-very-long-secret-key-for-dev-only-123456}
     expiration-minutes: ${JWT_EXP_MINUTES:120}
+  ai:
+    base-url: ${AI_BASE_URL:https://generativelanguage.googleapis.com/v1beta/models}
+    api-key: ${AI_API_KEY:}
+    model: ${AI_MODEL:gemini-3-flash-preview}
+  image:
+    base-url: ${IMAGE_BASE_URL:https://generativelanguage.googleapis.com/v1beta/models}
+    api-key: ${IMAGE_API_KEY:}
+    model: ${IMAGE_MODEL:imagen-4.0-fast-generate-001}
+  rate-limit:
+    quote-generation:
+      max-requests-per-window: ${QUOTE_GENERATE_RATE_LIMIT:10}
+      window-seconds: ${QUOTE_GENERATE_RATE_WINDOW_SECONDS:60}
 google:
   client:
     id: ${GOOGLE_CLIENT_ID}
