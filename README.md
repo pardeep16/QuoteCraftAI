@@ -78,6 +78,7 @@ Before running the application, ensure you have the following installed:
 3. Create a `.env` file in the frontend directory with the API endpoint:
    ```
    VITE_API_BASE_URL=http://localhost:8080
+   VITE_GOOGLE_CLIENT_ID=XXXXXXXXXXXXXXX
    ```
 
 4. Start the development server:
